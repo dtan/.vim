@@ -1,4 +1,6 @@
-colorscheme koehler
-set tabstop=4
+call pathogen#infect()
+autocmd VimEnter *  NERDTree
 syntax on
-au VimEnter *  NERDTree
+colorscheme koehler
+set transparency=15
+set tabstop=4
