@@ -3,7 +3,7 @@ autocmd VimEnter *  NERDTree
 syntax on
 colorscheme koehler
 set transparency=30
-set tabstop=2
+set tabstop=4
 set nowrap
 set number
 
