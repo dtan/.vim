@@ -1,4 +1,6 @@
 call pathogen#infect()
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 autocmd VimEnter *  NERDTree " enter NERDTree on new window
 syntax on " syntax highlighting
 colorscheme koehler
