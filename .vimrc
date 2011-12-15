@@ -1,11 +1,11 @@
-call pathogen#infect() " using pathogen library
+call pathogen#infect()
 autocmd VimEnter *  NERDTree " enter NERDTree on new window
 syntax on " syntax highlighting
 colorscheme koehler
-if exists("transparency")
+"if exists("transparency")
 	set transparency=30 " window transparency (does not seem to work in terminal)
-endif
-set tabstop=4 " 4 spaces per tab
+"endif
+set tabstop=2 " 2 spaces per tab
 set nowrap " do not wrap lines
 set number " show line numbers
 set autoindent " keep the indent level when hitting return
