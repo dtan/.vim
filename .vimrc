@@ -7,6 +7,7 @@ colorscheme koehler
 "if exists("transparency")
 	set transparency=30 " window transparency (does not seem to work in terminal)
 "endif
+set expandtab " soft tabs
 set tabstop=2 " 2 spaces per tab
 set nowrap " do not wrap lines
 set number " show line numbers
