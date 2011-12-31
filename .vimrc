@@ -12,6 +12,7 @@ set tabstop=2 " 2 spaces per tab
 set nowrap " do not wrap lines
 set number " show line numbers
 set autoindent " keep the indent level when hitting return
+retab
 
 "key mappings" 
 map <C-h> <C-w>h 
