@@ -2,6 +2,7 @@ call pathogen#infect()
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 autocmd VimEnter *  NERDTree " enter NERDTree on new window
+let NERDTreeShowHidden=1
 syntax on " syntax highlighting
 colorscheme koehler
 "if exists("transparency")
