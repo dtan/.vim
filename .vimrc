@@ -1,18 +1,28 @@
+" Use Node.js for JavaScript interpretation
+let $JS_CMD='node'
 call pathogen#infect()
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
-autocmd VimEnter *  NERDTree " enter NERDTree on new window
+" enter NERDTree on new window
+autocmd VimEnter *  NERDTree
 let NERDTreeShowHidden=1
-syntax on " syntax highlighting
+" syntax highlighting
+syntax on
+filetype plugin on
 colorscheme koehler
 "if exists("transparency")
 	set transparency=30 " window transparency (does not seem to work in terminal)
 "endif
-set expandtab " soft tabs
-set tabstop=2 " 2 spaces per tab
-set nowrap " do not wrap lines
-set number " show line numbers
-set autoindent " keep the indent level when hitting return
+" soft tabs
+set expandtab 
+" 2 spaces per tab
+set tabstop=2 
+" do not wrap lines
+set nowrap 
+" show line numbers
+set number 
+" keep the indent level when hitting return
+set autoindent 
 retab
 
 "key mappings" 
